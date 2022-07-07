@@ -1,3 +1,8 @@
+body {
+  background-image: url('./joanna-kosinska-i7q-HTO0SEM-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 h1 {
   text-align: center;
   font-size: 60px;
