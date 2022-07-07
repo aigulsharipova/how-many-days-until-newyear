@@ -1,5 +1,5 @@
 function newYearTimer() {
-  const newYearDate = new Date('January 01, 2023, 00:00');
+  const newYearDate = new Date('July 07, 2022, 19:09');
   const now = new Date();
   const diff = newYearDate - now;
 
@@ -30,10 +30,16 @@ function newYearTimer() {
   }
   }
   
-  let timerID = setInterval(newYearTimer, 1000)
+  let timerID = setInterval(newYearTimer, 1000);
   
   function newYear() {
     const heading = document.querySelector('h1');
     heading.textContent = "HAPPY NEW YEAR!!!";
     heading.classList.add('red');
+  }
+
+  function newImage() {
+    const bodyImage = document.querySelector('body');
+    const newImage = url('./style/newyear');
+    bodyImage.textContent = newImage;
   }
