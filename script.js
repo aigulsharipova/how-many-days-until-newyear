@@ -37,13 +37,3 @@ function newYearTimer() {
     heading.textContent = "HAPPY NEW YEAR!!!";
     heading.classList.add('red');
   }
-  
-  const button = document.querySelector('#myButton');
-  button.addEventListener('click', function() {
-    document.querySelector('#myAudio').play()
-  })
-  
-  const buttonOff = document.querySelector('#myButton');
-  button.addEventListener('dblclick', function() {
-    document.querySelector('#myAudio').pause()
-  })
