@@ -14,6 +14,7 @@ h1 {
   padding: 20px;
   background-color: rgba(251, 248, 249, 0.9);
   border: 3px solid black;
+  font-family: 'Oswald', sans-serif;
 }
 .container {
   display: flex;
@@ -34,6 +35,7 @@ h1 {
 }
 h3 {
   font-size: 30px;
+  font-family: 'Oswald', sans-serif;
 }
 .days, .hours, .minutes, .seconds {
   font-size: 40px;
