@@ -37,9 +37,3 @@ function newYearTimer() {
     heading.textContent = "HAPPY NEW YEAR!!!";
     heading.classList.add('red');
   }
-
-  function newImage() {
-    const bodyImage = document.querySelector('body');
-    const newImage = url('./style/newyear');
-    bodyImage.textContent = newImage;
-  }

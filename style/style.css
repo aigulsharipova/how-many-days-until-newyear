@@ -40,3 +40,8 @@ h3 {
 .days, .hours, .minutes, .seconds {
   font-size: 40px;
 }
+.red {
+  font-size: 60px;
+  font-family: 'Oswald', sans-serif;
+  color: rgba(235, 35, 35, 0.9);
+}
