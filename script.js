@@ -1,5 +1,5 @@
 function newYearTimer() {
-  const newYearDate = new Date('July 07, 2022, 19:09');
+  const newYearDate = new Date('July 07, 2022, 19:50');
   const now = new Date();
   const diff = newYearDate - now;
 
@@ -36,4 +36,6 @@ function newYearTimer() {
     const heading = document.querySelector('h1');
     heading.textContent = "HAPPY NEW YEAR!!!";
     heading.classList.add('red');
+    const newStyleImage = document.querySelector('body');
+    newStyleImage.classList.add('newImage');
   }

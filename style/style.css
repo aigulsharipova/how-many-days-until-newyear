@@ -4,6 +4,12 @@ body {
   background-size: cover;
   background-color: rgb(37, 63, 24);
 }
+.newImage{
+  background-image: url('./ray-hennessy-gdTxVSAE5sk-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(0, 6, 41);
+}
 .heading {
   display: flex;
   justify-content: center;
@@ -41,7 +47,6 @@ h3 {
   font-size: 40px;
 }
 .red {
-  font-size: 60px;
+  font-size: 90px;
   font-family: 'Oswald', sans-serif;
-  color: rgba(235, 35, 35, 0.9);
 }
