@@ -1,4 +1,4 @@
-# Christmas timer
+# New Year timer
 
 How Many Days Until New Year 2023
 
