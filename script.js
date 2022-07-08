@@ -1,5 +1,5 @@
 function newYearTimer() {
-  const newYearDate = new Date('July 07, 2022, 19:50');
+  const newYearDate = new Date('July 07, 2022, 20:04');
   const now = new Date();
   const diff = newYearDate - now;
 
