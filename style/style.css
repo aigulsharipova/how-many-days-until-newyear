@@ -50,3 +50,9 @@ h3 {
   font-size: 90px;
   font-family: 'Oswald', sans-serif;
 }
+@media all and (max-width: 800px){
+  .container{
+    flex-direction: column;
+    height: 100vh;
+  }
+}
